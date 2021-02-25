@@ -1,0 +1,9 @@
+#+PROPERTY: header-args :session *gumbo*
+
+Meson support build for gumbo
+
+* Build
+#+begin_src sh
+meson setup build
+ninja -C build
+#+end_src
